@@ -28,7 +28,7 @@ const projects: Project[] = [
 
 export default function Projects() {
   return (
-    <div className="max-w-5xl mx-auto py-16 px-4">
+    <div className="mx-auto py-16 px-8">
       {projects.map((proj, index) => (
         <div key={index} className="pb-12">
           <h2 className="text-2xl font-bold mb-2">{proj.title}</h2>

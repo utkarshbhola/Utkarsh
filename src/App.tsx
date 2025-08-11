@@ -17,7 +17,7 @@ export default function App() {
         />
 
         {/* Right - Links */}
-        <div className="flex gap-6">
+        <div className="flex gap-6 overflow-x-hidden">
           <Link to="home" smooth duration={500} className="px-4 py-2 rounded-full bg-red-600 text-white hover:bg-red-700 transition">Home</Link>
           <Link to="about" smooth duration={500} className="px-4 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition">About</Link>
           <Link to="contact" smooth duration={500} className="px-4 py-2 rounded-full bg-green-600 text-white hover:bg-green-700 transition">Contact</Link>
